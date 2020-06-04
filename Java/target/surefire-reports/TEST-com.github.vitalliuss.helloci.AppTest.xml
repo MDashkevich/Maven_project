@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.058" tests="5" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.075" tests="5" errors="0" skipped="1" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BY"/>
     <property name="sun.boot.library.path" value="/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/astarprx/Java/Maven_project/Java/target/surefire/surefirebooter13221991663339246097.jar /Users/astarprx/Java/Maven_project/Java/target/surefire 2020-05-29T00-00-48_460-jvmRun1 surefire14051777865692685306tmp surefire_02014741469869515245tmp"/>
+    <property name="sun.java.command" value="/Users/astarprx/Java/Maven_project/Java/target/surefire/surefirebooter17760045878494455772.jar /Users/astarprx/Java/Maven_project/Java/target/surefire 2020-06-04T23-49-42_737-jvmRun1 surefire18312559092715050261tmp surefire_017166734890159192802tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/astarprx/Java/Maven_project/Java/target/test-classes:/Users/astarprx/Java/Maven_project/Java/target/classes:/Users/astarprx/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/astarprx/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -33,13 +33,13 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/astarprx/Java/Maven_project/Java/target/surefire/surefirebooter13221991663339246097.jar"/>
+    <property name="surefire.real.class.path" value="/Users/astarprx/Java/Maven_project/Java/target/surefire/surefirebooter17760045878494455772.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.5+10-b520.30"/>
     <property name="user.name" value="astarprx"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.15.4"/>
+    <property name="os.version" value="10.15.5"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -61,11 +61,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.019">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
-</failure>
-  </testcase>
+  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.003"/>
   <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
   <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
   <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
